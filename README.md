@@ -1,6 +1,6 @@
 # MT论坛自动签到（用户脚本）
 
-在 **MT论坛（https://bbs.binmt.cc/）** 每日自动签到的浏览器用户脚本。
+在 **MT论坛（https://bbs.binmt.cc）** 每日自动签到的浏览器用户脚本。
 兼容 **Tampermonkey（篡改猴）**、**Violentmonkey**、**Via 浏览器** 等脚本管理器。
 
 ## ✨ 特性
