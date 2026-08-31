@@ -13,7 +13,9 @@
 
 ## 📥 下载安装
 
-前往 **Releases 页面**下载最新版脚本：<https://github.com/52Yoyo/mt-forum-auto-sign/releases>
+前往 **Releases 页面**：<https://github.com/52Yoyo/mt-forum-auto-sign/releases>
+
+点击资产区（Assets）的 **`mt-forum-auto-sign.user.js`**，脚本管理器（Tampermonkey / Violentmonkey / Via）会自动接管弹出安装确认，点「安装」即可。
 
 安装步骤、设置说明、问题排查请查看：
 

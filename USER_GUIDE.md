@@ -7,23 +7,24 @@
 
 ## 一、安装方法
 
-### 电脑端（Tampermonkey / Violentmonkey）
+### 电脑端（Tampermonkey / Violentmonkey）⭐ 推荐方式
 
 1. 浏览器安装扩展：Tampermonkey（篡改猴）或 Violentmonkey
-2. 点击工具栏扩展图标 → 「管理面板」→ 点击右上角 **「+」新建脚本**（会打开一个脚本编辑页）
-3. **把 `mt-forum-auto-sign.user.js` 文件直接拖进浏览器页面内**，编辑器会自动载入文件内容
-4. 按 `Ctrl+S` 保存
-5. **回到管理面板，确认「MT论坛自动签到」开关是「已启用」**（新脚本默认启用，但偶尔会默认禁用）
+2. 打开 **Releases 发布页**：<https://github.com/52Yoyo/mt-forum-auto-sign/releases>
+3. 找到最新版本，**点击资产区（Assets）里的 `mt-forum-auto-sign.user.js` 文件**
+4. **脚本管理器会自动接管**，直接弹出安装确认页，点「安装」即可
+5. 回到管理面板，确认「MT论坛自动签到」开关是「已启用」（新脚本默认启用，但偶尔会默认禁用）
 
-> 也可以直接在浏览器中打开 `mt-forum-auto-sign.user.js` 文件（双击文件），扩展会自动弹出安装确认页，点「安装」即可。
+> **备用方式**：如果点击资产没有自动弹出安装（极少见），可在管理面板点右上角 **「+」新建脚本**，把 `mt-forum-auto-sign.user.js` 文件直接拖进浏览器页面内，编辑器自动载入内容后按 `Ctrl+S` 保存。
 
 ### 手机端（Via 浏览器）
 
 > ⚠️ **Via 浏览器脚本功能默认是关闭的，必须先开启！**
 
 1. Via 浏览器 → 设置 → 通用 → **打开「脚本」开关**（第一次会提示安装脚本引擎，点击确认）
-2. 打开脚本文件 `mt-forum-auto-sign.user.js`，Via 会识别 `==UserScript==` 头并提示安装
-3. 确认 `@match` 覆盖 `https://bbs.binmt.cc/*`
+2. 打开 **Releases 发布页**：<https://github.com/52Yoyo/mt-forum-auto-sign/releases>，点击资产区的 `mt-forum-auto-sign.user.js` 下载
+3. 下载完成后点击打开该文件，Via 会识别 `==UserScript==` 头并提示安装
+4. 确认 `@match` 覆盖 `https://bbs.binmt.cc/*`
 
 ## 二、使用方法
 
