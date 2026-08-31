@@ -22,9 +22,14 @@
 > ⚠️ **Via 浏览器脚本功能默认是关闭的，必须先开启！**
 
 1. Via 浏览器 → 设置 → 通用 → **打开「脚本」开关**（第一次会提示安装脚本引擎，点击确认）
-2. 打开 **Releases 发布页**：<https://github.com/52Yoyo/mt-forum-auto-sign/releases>，点击资产区的 `mt-forum-auto-sign.user.js` 下载
-3. 下载完成后点击打开该文件，Via 会识别 `==UserScript==` 头并提示安装
-4. 确认 `@match` 覆盖 `https://bbs.binmt.cc/*`
+2. 进入脚本管理页，**长按脚本选项**，点击 **「+」加号**
+3. 选择 **「下载脚本」**
+4. **粘贴脚本下载直链地址**：
+   ```
+   https://github.com/52Yoyo/mt-forum-auto-sign/releases/latest/download/mt-forum-auto-sign.user.js
+   ```
+5. 点击 **「确定」**，等待解析完成即自动安装
+6. 确认 `@match` 覆盖 `https://bbs.binmt.cc/*`
 
 ## 二、使用方法
 
